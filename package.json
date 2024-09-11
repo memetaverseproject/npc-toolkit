@@ -1,0 +1,39 @@
+{
+	"name": "@mtvproject/npc-toolkit",
+	"version": "1.0.0",
+	"description": "A collection of tools for creating Non-Player-Characters (NPCs). These are capable of having conversations with the player, and play different animations.",
+	"main": "./dist/index.js",
+	"typings": "./dist/index.d.ts",
+	"scripts": {
+		"build": "tsc -p tsconfig.json"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/memetaverseproject/npc-toolkit.git"
+	},
+	"keywords": [
+		"decentraland",
+		"sdk7",
+		"sdk 7",
+		"sdk utils",
+		"npc",
+		"sdk library"
+	],
+	"author": "Decentraland",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/memetaverseproject/npc-toolkit/issues"
+	},
+	"homepage": "https://github.com/memetaverseproject/npc-toolkit#readme",
+	"devDependencies": {
+		"@mtvproject/sdk-utils": "latest",
+		"@mtvproject/sdk": "latest",
+		"typescript": "^5.0.2"
+	},
+	"files": [
+		"dist"
+	],
+	"dependencies": {
+		"@mtvproject/js-runtime": "latest"
+	}
+}
